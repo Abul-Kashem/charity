@@ -1,0 +1,121 @@
+@use "../../utils/" as *;
+
+.ahn-header {
+  &-transparent {
+    position: absolute;
+    top: 26px;
+    left: 0;
+    right: 0;
+  }
+  &-container {
+    max-width: 1424px;
+  }
+  &-bg {
+    padding-right: 5px;
+    border-radius: 12px;
+  }
+  &-row {
+  }
+  &-logo {
+    position: relative;
+    z-index: 1;
+    &-box {
+      width: 200px;
+      border-radius: 12px 0 0 12px;
+      flex: 0 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &-shape {
+      position: relative;
+      & svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+      }
+    }
+  }
+  &-menu {
+   
+    & ul {
+      & li {
+        display: inline-block;
+        margin-right: 40px;
+        position: relative;
+        & a {
+          display: inline-block;
+          color: var(--ahn-primary-color);
+          font-size: 16px;
+          font-weight: 600;
+          padding: 21px 0;
+        }
+        &:hover {
+          & > a {
+            color: var(--ahn-theme-color);
+          }
+          & > .sub-menu {
+            opacity: 1;
+            visibility: visible;
+            top: 100%;
+          }
+        }
+        & .sub-menu {
+          position: absolute;
+          left: 0;
+          top: 105%;
+          background: #fff;
+          width: 220px;
+          padding: 18px 0;
+          @include ahn-transition();
+          opacity: 0;
+          visibility: hidden;
+          & li {
+            margin-right: 0;
+            display: block;
+            & a {
+              padding: 3px 28px;
+              display: block;
+            }
+
+            & .sub-menu {
+              left: 102%;
+              top: 0;
+            }
+            &:hover {
+              & > .sub-menu {
+                left: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &-content {
+    width: 100%;
+  }
+  &-right {
+  }
+  &-phone a {
+    color: var(--ahn-primary-color);
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+
+    & svg {
+      margin-right: 5px;
+    }
+  }
+  &-btn {
+  }
+}
+
+.ahn-header-logo svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}

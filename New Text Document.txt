@@ -1,0 +1,1 @@
+sass --watch "D:\Development\HTML\charity\assets\scss\main.scss:D:\Development\HTML\charity\assets\css\style.css"
