@@ -45,6 +45,7 @@
   --ahn-black-color: #000;
   --ahn-heading-color: #121018;
   --ahn-grey-color: #F2F0EC;
+  --ahn-body-color: #5A5860;
 }
 
 :root {
@@ -607,6 +608,126 @@ textarea {
   margin-bottom: 100px;
 }
 
+.pt-5 {
+  padding-top: 5px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-25 {
+  padding-top: 25px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pt-35 {
+  padding-top: 35px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pt-45 {
+  padding-top: 45px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pt-55 {
+  padding-top: 55px;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.pt-65 {
+  padding-top: 65px;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.pt-75 {
+  padding-top: 75px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pt-85 {
+  padding-top: 85px;
+}
+
+.pt-90 {
+  padding-top: 90px;
+}
+
+.pt-95 {
+  padding-top: 95px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pt-105 {
+  padding-top: 105px;
+}
+
+.pt-110 {
+  padding-top: 110px;
+}
+
+.pt-115 {
+  padding-top: 115px;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.pt-125 {
+  padding-top: 125px;
+}
+
+.pt-130 {
+  padding-top: 130px;
+}
+
+.pt-135 {
+  padding-top: 135px;
+}
+
+.pt-140 {
+  padding-top: 140px;
+}
+
+.pt-145 {
+  padding-top: 145px;
+}
+
+.pt-150 {
+  padding-top: 150px;
+}
+
 .pb-5 {
   padding-bottom: 5px;
 }
@@ -797,6 +918,10 @@ img {
   font-family: var(--ahn-font-sub-heading);
 }
 
+.br-12 {
+  border-radius: 12px;
+}
+
 .ahn-btn {
   background: var(--ahn-theme-color);
   padding: 20px 34px;
@@ -810,6 +935,18 @@ img {
 }
 .ahn-btn-text {
   font-size: 15px;
+}
+
+.ahn-section-sub-title {
+  font-size: 30px;
+  color: var(--ahn-pink-color);
+}
+.ahn-section-title {
+  color: var(--ahn-heading-color);
+  font-size: 60px;
+}
+.ahn-section-info-space {
+  margin-left: 78px;
 }
 
 .ahn-header-transparent {
@@ -912,6 +1049,64 @@ img {
   top: 0;
   left: 0;
   height: 100%;
+}
+
+.ahn-about-shape-1 {
+  top: 30%;
+  left: 97px;
+}
+.ahn-about-shape-2 {
+  top: -9%;
+  right: 0px;
+}
+.ahn-about-number {
+  bottom: 80px;
+  right: -120px;
+}
+.ahn-about-number-info {
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: right;
+  left: 0;
+  right: 0;
+  padding-right: 62px;
+}
+.ahn-about-number-info h2 {
+  color: #f8f3e7;
+  font-size: 90px;
+}
+.ahn-about-number-info h6 {
+  color: #f8f3e7;
+  font-size: 15px;
+  margin: 0;
+  letter-spacing: 0;
+}
+.ahn-about-vr-title {
+  color: #e0deda;
+  font-size: 130px;
+  font-weight: 600;
+  top: 130px;
+  right: -194px;
+  line-height: 1;
+  transform: rotate(90deg);
+}
+.ahn-about-fact-shape {
+  top: 0;
+  left: -35px;
+  max-width: inherit;
+}
+.ahn-about-fact-box {
+  padding: 20px 16px 15px;
+}
+.ahn-about-fact-box-img {
+  margin-right: 12px;
+}
+.ahn-about-fact-box-info h4 {
+  margin-bottom: 4px;
+}
+.ahn-about-fact-box-info p {
+  font-size: 15px;
+  margin: 0;
 }
 
 .ahn-hero-area {

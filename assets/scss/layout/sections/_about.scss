@@ -1,1 +1,72 @@
-@use '../../utils/' as *;
+@use "../../utils/" as *;
+
+.ahn-about {
+  &-shape {
+    &-1 {
+      top: 30%;
+      left: 97px;
+    }
+    &-2 {
+      top: -9%;
+      right: 0px;
+    }
+  }
+  &-number {
+    // position: absolute;
+    bottom: 80px;
+    right: -120px;
+    &-info {
+      //   position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: right;
+      left: 0;
+      right: 0;
+      padding-right: 62px;
+      & h2 {
+        color: #f8f3e7;
+        font-size: 90px;
+      }
+      & h6 {
+        color: #f8f3e7;
+        font-size: 15px;
+        margin: 0;
+        letter-spacing: 0;
+      }
+    }
+  }
+  &-vr-title {
+    color: #e0deda;
+    font-size: 130px;
+    font-weight: 600;
+    // position: absolute;
+    top: 130px;
+    right: -194px;
+    line-height: 1;
+    transform: rotate(90deg);
+  }
+  &-fact {
+    &-shape {
+      //   position: absolute;
+      top: 0;
+      left: -35px;
+      max-width: inherit;
+    }
+    &-box {
+      //   display: flex;
+      padding: 20px 16px 15px;
+      &-img {
+        margin-right: 12px;
+      }
+      &-info {
+        h4 {
+          margin-bottom: 4px;
+        }
+        p {
+          font-size: 15px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

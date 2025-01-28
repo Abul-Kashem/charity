@@ -1,0 +1,15 @@
+@use "../utils/" as *;
+
+.ahn-section {
+  &-sub-title {
+    font-size: 30px;
+    color: var(--ahn-pink-color);
+  }
+  &-title {
+    color: var(--ahn-heading-color);
+    font-size: 60px;
+  }
+  &-info-space {
+    margin-left: 78px;
+  }
+}

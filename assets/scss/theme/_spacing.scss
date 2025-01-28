@@ -27,7 +27,14 @@
 // padding
 
 @for $i from 1 through 30 {
+  .pt-#{5* $i} {
+    padding-top: 5px * $i;
+  }
+}
+
+@for $i from 1 through 30 {
   .pb-#{5* $i} {
     padding-bottom: 5px * $i;
   }
 }
+
