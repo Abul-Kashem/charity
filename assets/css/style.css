@@ -40,7 +40,7 @@
   --ahn-primary-color: #063d30;
   --ahn-primary-color-2: #006b5e;
   --ahn-secondary-color: #fe4e15;
-  --ahn-pink-color: #b855ff;
+  --ahn-pink-color: #FF73AE;
   --ahn-white-color: #fff;
   --ahn-black-color: #000;
   --ahn-heading-color: #121018;
@@ -870,18 +870,22 @@ img {
 
 .z-index-1 {
   z-index: 1;
+  position: relative;
 }
 
 .z-index-2 {
   z-index: 2;
+  position: relative;
 }
 
 .z-index-3 {
   z-index: 3;
+  position: relative;
 }
 
 .z-index-11 {
   z-index: 11;
+  position: relative;
 }
 
 .overflow-y-visible {
@@ -921,6 +925,12 @@ img {
 .br-12 {
   border-radius: 12px;
 }
+.br-16 {
+  border-radius: 16px;
+}
+.br-20 {
+  border-radius: 20px;
+}
 
 .ahn-btn {
   background: var(--ahn-theme-color);
@@ -936,6 +946,57 @@ img {
 .ahn-btn-text {
   font-size: 15px;
 }
+.ahn-btn-border {
+  border-radius: 12px;
+  border: 1px solid #073d30;
+  display: inline-flex;
+  padding: 16px 27px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #073d30;
+  font-size: 16px;
+  font-weight: 600;
+  width: 110px;
+  height: 44px;
+}
+
+.ahnprogress label {
+  background: var(--ahn-theme-color);
+  margin-bottom: 7px;
+  padding: 7px 8px;
+  font-size: 13px;
+  color: #121018;
+  font-weight: 600;
+  border-radius: 6px;
+  line-height: 1;
+  position: relative;
+  transform: translateX(-68%);
+}
+.ahnprogress label::before {
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: var(--ahn-theme-color) transparent transparent transparent;
+  transform: rotate(0deg);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -4px;
+}
+.ahnprogress .progress, .ahnprogress .progress-stacked {
+  --bs-progress-height: 8px;
+  --bs-progress-font-size: 0.75rem;
+  --bs-progress-bg: rgba(18, 16, 24, 0.1);
+  --bs-progress-border-radius: 6px;
+  --bs-progress-bar-bg: var(--ahn-theme-color);
+}
+.ahnprogress .progress-bar {
+  border-radius: 6px;
+}
 
 .ahn-section-sub-title {
   font-size: 30px;
@@ -947,6 +1008,17 @@ img {
 }
 .ahn-section-info-space {
   margin-left: 78px;
+}
+.ahn-section-back-title {
+  font-size: 280px;
+  background: linear-gradient(179deg, #e0deda 39.13%, #f2f0ec 104.12%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  bottom: 42px;
+  margin: 0;
+  z-index: 1;
 }
 
 .ahn-header-transparent {
@@ -1054,13 +1126,14 @@ img {
 .ahn-about-shape-1 {
   top: 30%;
   left: 97px;
+  mix-blend-mode: exclusion;
 }
 .ahn-about-shape-2 {
   top: -9%;
   right: 0px;
 }
 .ahn-about-number {
-  bottom: 80px;
+  bottom: 100px;
   right: -120px;
 }
 .ahn-about-number-info {
@@ -1094,6 +1167,7 @@ img {
   top: 0;
   left: -35px;
   max-width: inherit;
+  mix-blend-mode: multiply;
 }
 .ahn-about-fact-box {
   padding: 20px 16px 15px;
@@ -1107,6 +1181,30 @@ img {
 .ahn-about-fact-box-info p {
   font-size: 15px;
   margin: 0;
+}
+
+.ahncauses {
+  padding: 15px;
+}
+.ahncauses__meta span {
+  font-size: 14px;
+  color: #85838b;
+}
+.ahncauses__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+.ahncauses__amount label {
+  color: #56605d;
+  font-size: 15px;
+  display: block;
+  line-height: 1;
+}
+.ahncauses__amount span {
+  color: #121018;
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
 }
 
 .ahn-hero-area {

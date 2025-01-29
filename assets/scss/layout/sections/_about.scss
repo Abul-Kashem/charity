@@ -5,6 +5,7 @@
     &-1 {
       top: 30%;
       left: 97px;
+      mix-blend-mode: exclusion;
     }
     &-2 {
       top: -9%;
@@ -13,7 +14,7 @@
   }
   &-number {
     // position: absolute;
-    bottom: 80px;
+    bottom: 100px;
     right: -120px;
     &-info {
       //   position: absolute;
@@ -51,6 +52,7 @@
       top: 0;
       left: -35px;
       max-width: inherit;
+      mix-blend-mode: multiply;
     }
     &-box {
       //   display: flex;

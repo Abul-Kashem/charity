@@ -1,0 +1,38 @@
+@use "../../utils/" as *;
+
+.ahncauses {
+  padding: 15px;
+  &__meta {
+    & span {
+      font-size: 14px;
+      color: #85838b;
+    }
+  }
+  &__title {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  &__content {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+    // height: 100%;
+  }
+  &__progress {
+    
+  }
+  &__amount {
+    & label {
+      color: #56605d;
+      font-size: 15px;
+      display: block;
+      line-height: 1;
+    }
+    & span {
+      color: #121018;
+      font-size: 18px;
+      font-weight: 600;
+      display: block;
+    }
+  }
+}
