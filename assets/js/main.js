@@ -20,12 +20,28 @@
 
   // swiper slider
 
-     var swiper = new Swiper(".ahncauses-slider-active", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
+  var swiper = new Swiper(".ahncauses-slider-active", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    navigation: {
+      nextEl: ".ahn-arrow-next",
+      prevEl: ".ahn-arrow-prev",
+    },
+  });
+
+  // ahn text slider
+
+  var swiper = new Swiper(".ahn-text-slider-active", {
+    slidesPerView: "auto",
+    spaceBetween: 40,
+    freeMode: true,
+    centeredSlides: true,
+    loop: true,
+    speed: 4000,
+    allowTouchMove: false,
+    autoplay: {
+      delay: 1,
+      disableOnInteraction: true,
+    },
+  });
 })(jQuery);

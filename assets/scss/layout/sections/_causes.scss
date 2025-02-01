@@ -1,6 +1,8 @@
 @use "../../utils/" as *;
 
 .ahncauses {
+  box-shadow: 0px 36px 16px -24px rgba(18, 16, 24, 0.08);
+  margin-bottom: 50px;
   padding: 15px;
   &__meta {
     & span {
@@ -19,7 +21,6 @@
     // height: 100%;
   }
   &__progress {
-    
   }
   &__amount {
     & label {
@@ -35,9 +36,30 @@
       display: block;
     }
   }
+  &__downtext {
+    & p {
+      font-size: 24px;
+      font-family: var(--ahn-font-heading);
+    }
+  }
 }
-
 
 .swiper.ahncauses-slider-active {
-	margin-right: -565px;
+  margin-right: -565px;
 }
+.ahn-arrow {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(18, 16, 24, 0.1);
+  &-prev {
+    margin-right: 10px;
+  }
+  &:hover {
+    border: 1px solid rgba(18, 16, 24, 0.2);
+    background: #121018;
+    color: #f8f3e7;
+  }
+}
+

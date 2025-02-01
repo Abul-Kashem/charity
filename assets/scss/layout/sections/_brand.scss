@@ -1,0 +1,27 @@
+@use "../../utils/" as *;
+
+.ahn-text-slider-rotate {
+  transform: rotate(1deg);
+}
+.ahn-text-slide {
+  &-title {
+    margin-bottom: 0;
+    font-size: 80px;
+    font-weight: 300;
+    & img {
+      margin-right: 30px;
+    }
+  }
+}
+
+.ahn-slide-transition {
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+
+.ahn-text-slider-active {
+  & .swiper-slide {
+    width: auto;
+    display: inline-block;
+  }
+}

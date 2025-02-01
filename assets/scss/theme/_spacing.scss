@@ -38,3 +38,15 @@
   }
 }
 
+
+@for $i from 1 through 30 {
+  .pl-#{5* $i} {
+    padding-left: 5px * $i;
+  }
+}
+
+@for $i from 1 through 30 {
+  .pr-#{5* $i} {
+    padding-right: 5px * $i;
+  }
+}

@@ -65,9 +65,24 @@ img {
 .bg-grey {
   background-color: var(--ahn-grey-color);
 }
+
+.bg-theme {
+  background-color: var(--ahn-theme-color);
+}
 // font family
 .ahn-sub-font {
   font-family: var(--ahn-font-sub-heading);
+}
+
+// font size
+
+.fns {
+  &-50 {
+    font-size: 50px;
+  }
+  &-16 {
+    font-size: 16px;
+  }
 }
 
 // border radius
