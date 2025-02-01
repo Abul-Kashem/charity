@@ -1,0 +1,12 @@
+@use "../../utils/" as *;
+
+.ahn-fact {
+  &-item {
+    p {
+      color: #454449;
+    }
+    &-border {
+      border-left: 2px solid #ffcf4e;
+    }
+  }
+}
