@@ -1207,6 +1207,10 @@ img {
   display: block;
 }
 
+.swiper.ahncauses-slider-active {
+  margin-right: -565px;
+}
+
 .ahn-hero-area {
   padding-top: 285px;
   padding-bottom: 335px;
