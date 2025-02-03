@@ -42,3 +42,33 @@
     border-radius: 6px;
   }
 }
+
+.ahn-help {
+  &-progress {
+    & .progress,
+    & .progress-stacked {
+      --bs-progress-height: 8px;
+      --bs-progress-font-size: 0.75rem;
+      --bs-progress-bg: rgba(248, 243, 231, 0.1);
+      --bs-progress-border-radius: 6px;
+      --bs-progress-bar-bg: var(--ahn-theme-color);
+    }
+
+    & .progress-bar {
+      border-radius: 6px;
+    }
+  }
+  &-amount {
+    & h4 {
+      color: #f8f3e7;
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+  }
+  &-btn {
+    padding: 21px 34px;
+    border-radius: 0px 0px 12px 0px;
+    &-big {
+    }
+  }
+}

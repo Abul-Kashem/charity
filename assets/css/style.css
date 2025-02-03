@@ -90,6 +90,16 @@
   font-family: var(--ahn-font-heading);
   display: inline-block;
 }
+.ahn-btn-sm {
+  border-radius: 8px;
+  background-color: var(--ahn-primary-color);
+  padding: 12px 17px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #f8f3e7;
+  display: inline-block;
+  line-height: 1;
+}
 
 .ahnprogress label {
   background: var(--ahn-theme-color);
@@ -128,6 +138,25 @@
   border-radius: 6px;
 }
 
+.ahn-help-progress .progress, .ahn-help-progress .progress-stacked {
+  --bs-progress-height: 8px;
+  --bs-progress-font-size: 0.75rem;
+  --bs-progress-bg: rgba(248, 243, 231, 0.1);
+  --bs-progress-border-radius: 6px;
+  --bs-progress-bar-bg: var(--ahn-theme-color);
+}
+.ahn-help-progress .progress-bar {
+  border-radius: 6px;
+}
+.ahn-help-amount h4 {
+  color: #f8f3e7;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.ahn-help-btn {
+  padding: 21px 34px;
+  border-radius: 0px 0px 12px 0px;
+}
 .ahn-section-sub-title {
   font-size: 30px;
   color: var(--ahn-pink-color);
@@ -1292,6 +1321,13 @@ img {
 .fns-80 {
   font-size: 80px;
 }
+.fns-20 {
+  font-size: 20px;
+  line-height: 32px;
+}
+.fns-60 {
+  font-size: 60px;
+}
 
 .fnw-300 {
   font-weight: 300;
@@ -1317,6 +1353,10 @@ img {
 }
 .br-20 {
   border-radius: 20px;
+}
+
+.ahn-h-630 {
+  min-height: 630px;
 }
 
 .ahn-header-transparent {
@@ -1659,6 +1699,49 @@ img {
 }
 .ahn-fact-item-border {
   border-left: 2px solid #ffcf4e;
+}
+
+.ahn-cta-img {
+  right: 43px;
+  bottom: 0;
+}
+.ahn-cta-img-2 {
+  right: 0;
+  left: 0;
+}
+.ahn-cta-img-2 img {
+  mix-blend-mode: luminosity;
+}
+
+.ahn-help-list-item {
+  display: flex;
+  margin-bottom: 14px;
+  align-items: center;
+}
+.ahn-help-list-item span {
+  width: 26px;
+  height: 26px;
+  border-radius: 20px;
+  background: rgba(248, 243, 231, 0.1);
+  display: inline block;
+  color: #f8f3e7;
+  text-align: center;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.ahn-help-list-item p {
+  font-size: 16px;
+  color: #f8f3e7;
+  margin: 0;
+  font-weight: 500;
+}
+
+.ahn-br-top-bottom-left {
+  border-radius: 20px 0 0 20px;
+}
+
+.ahn-br-top-bottom-right {
+  border-radius: 0 20px 20px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

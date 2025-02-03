@@ -35,4 +35,14 @@
     font-family: var(--ahn-font-heading);
     display: inline-block;
   }
+  &-sm {
+    border-radius: 8px;
+    background-color: var(--ahn-primary-color);
+    padding: 12px 17px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #f8f3e7;
+    display: inline-block;
+    line-height: 1;
+  }
 }

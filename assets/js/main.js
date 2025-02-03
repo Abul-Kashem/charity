@@ -18,6 +18,16 @@
     $(this).css("border-color", $(this).attr("data-border-color"));
   });
 
+  // data bg color
+  $("[data-bg-color]").each(function () {
+    $(this).css("background-color", $(this).attr("data-bg-color"));
+  });
+
+  // data color
+  $("[data-color]").each(function () {
+    $(this).css("color", $(this).attr("data-color"));
+  });
+
   // swiper slider
 
   var swiper = new Swiper(".ahncauses-slider-active", {

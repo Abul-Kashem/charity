@@ -1,0 +1,45 @@
+@use "../../utils/" as *;
+
+.ahn-cta-img {
+  right: 43px;
+  bottom: 0;
+  &-2 {
+    right: 0;
+    left: 0;
+    & img {
+      mix-blend-mode: luminosity;
+    }
+  }
+}
+.ahn-help-list {
+  &-item {
+    display: flex;
+    margin-bottom: 14px;
+    align-items: center;
+
+    & span {
+      width: 26px;
+      height: 26px;
+      border-radius: 20px;
+      background: rgba(248, 243, 231, 0.1);
+      display: inline block;
+      color: #f8f3e7;
+      text-align: center;
+      font-size: 12px;
+      margin-right: 10px;
+    }
+    & p {
+      font-size: 16px;
+      color: #f8f3e7;
+      margin: 0;
+      font-weight: 500;
+    }
+  }
+}
+
+.ahn-br-top-bottom-left {
+  border-radius: 20px 0 0 20px;
+}
+.ahn-br-top-bottom-right {
+  border-radius: 0 20px 20px 0;
+}
