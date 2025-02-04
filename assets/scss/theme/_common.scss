@@ -73,25 +73,31 @@ img {
 .ahn-sub-font {
   font-family: var(--ahn-font-sub-heading);
 }
+.ahn-heading-font {
+  font-family: var(--ahn-font-heading);
+}
 
 // font size
 
 .fns {
-  &-50 {
-    font-size: 50px;
-  }
-  &-16 {
+ &-16 {
     font-size: 16px;
   }
-  &-80 {
-    font-size: 80px;
-  }
-  &-20 {
+ &-20 {
     font-size: 20px;
     line-height: 32px;
   }
-  &-60 {
+ &-34 {
+    font-size: 34px;
+  }
+  &-50 {
+    font-size: 50px;
+  }
+ &-60 {
     font-size: 60px;
+  }
+  &-80 {
+    font-size: 80px;
   }
 }
 

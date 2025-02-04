@@ -1,0 +1,52 @@
+@use "../../utils/" as *;
+
+.ahnevents {
+  padding: 25px 0;
+  @include ahn-transition(0.3s);
+
+  &__bg {
+    width: 38%;
+    height: 340px;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    border-radius: 0 12px 12px 0;
+  }
+
+  &__date {
+    padding: 8px 30px;
+    border-right: 1px solid rgba(18, 16, 24, 0.1);
+    text-align: center;
+    line-height: 1;
+    & span {
+      font-size: 14px;
+      color: #454449;
+      margin-bottom: 6px;
+      display: block;
+      text-transform: uppercase;
+    }
+    &--text {
+      color: var(--ahn-heading-color);
+      font-weight: 700;
+    }
+  }
+  &__title {
+    font-size: 26px;
+    margin-bottom: 13px;
+  }
+  &__meta span {
+    font-size: 15px;
+    color: #454449;
+    margin-right: 20px;
+    display: inline-flex;
+    align-items: center;
+    & svg {
+      margin-right: 8px;
+    }
+  }
+  &:hover {
+    box-shadow: 0px 20px 40px 0px rgba(18, 16, 24, 0.08);
+  }
+}
+
+// .ahnevents

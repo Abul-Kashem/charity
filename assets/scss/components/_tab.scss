@@ -18,4 +18,25 @@
       background-color: var(--ahn-theme-color);
     }
   }
+  &-resume {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    border: 1px solid rgba(18, 16, 24, 0.1);
+    & button {
+      width: 25%;
+      color: #121018;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0;
+      padding: 10px 0;
+      border-radius: 12px;
+      text-transform: capitalize;
+
+      &.active {
+        background-color: var(--ahn-theme-color);
+      }
+    }
+  }
 }

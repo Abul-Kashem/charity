@@ -43,7 +43,7 @@
   --ahn-pink-color: #FF73AE;
   --ahn-white-color: #fff;
   --ahn-black-color: #000;
-  --ahn-heading-color: #121018;
+  --ahn-heading-color: #0b0813;
   --ahn-grey-color: #F2F0EC;
   --ahn-body-color: #5A5860;
 }
@@ -197,6 +197,26 @@
   border-radius: 12px;
 }
 .ahn-nav-tabs button.active {
+  background-color: var(--ahn-theme-color);
+}
+.ahn-nav-tabs-resume {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  border: 1px solid rgba(18, 16, 24, 0.1);
+}
+.ahn-nav-tabs-resume button {
+  width: 25%;
+  color: #121018;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  padding: 10px 0;
+  border-radius: 12px;
+  text-transform: capitalize;
+}
+.ahn-nav-tabs-resume button.active {
   background-color: var(--ahn-theme-color);
 }
 
@@ -1312,21 +1332,28 @@ img {
   font-family: var(--ahn-font-sub-heading);
 }
 
-.fns-50 {
-  font-size: 50px;
+.ahn-heading-font {
+  font-family: var(--ahn-font-heading);
 }
+
 .fns-16 {
   font-size: 16px;
-}
-.fns-80 {
-  font-size: 80px;
 }
 .fns-20 {
   font-size: 20px;
   line-height: 32px;
 }
+.fns-34 {
+  font-size: 34px;
+}
+.fns-50 {
+  font-size: 50px;
+}
 .fns-60 {
   font-size: 60px;
+}
+.fns-80 {
+  font-size: 80px;
 }
 
 .fnw-300 {
@@ -1742,6 +1769,108 @@ img {
 
 .ahn-br-top-bottom-right {
   border-radius: 0 20px 20px 0;
+}
+
+.ahnevents {
+  padding: 25px 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.ahnevents__bg {
+  width: 38%;
+  height: 340px;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  border-radius: 0 12px 12px 0;
+}
+.ahnevents__date {
+  padding: 8px 30px;
+  border-right: 1px solid rgba(18, 16, 24, 0.1);
+  text-align: center;
+  line-height: 1;
+}
+.ahnevents__date span {
+  font-size: 14px;
+  color: #454449;
+  margin-bottom: 6px;
+  display: block;
+  text-transform: uppercase;
+}
+.ahnevents__date--text {
+  color: var(--ahn-heading-color);
+  font-weight: 700;
+}
+.ahnevents__title {
+  font-size: 26px;
+  margin-bottom: 13px;
+}
+.ahnevents__meta span {
+  font-size: 15px;
+  color: #454449;
+  margin-right: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+.ahnevents__meta span svg {
+  margin-right: 8px;
+}
+.ahnevents:hover {
+  box-shadow: 0px 20px 40px 0px rgba(18, 16, 24, 0.08);
+}
+
+.about-data li {
+  display: grid;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  padding-bottom: 5px;
+  -ms-grid-columns: 130px 40px auto;
+  grid-template-columns: 130px 40px auto;
+}
+
+.experience-item {
+  border-radius: 15px;
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.experience-item-section {
+  color: #e8bf96;
+}
+.experience-item .exp-year {
+  color: #e8bf96;
+}
+
+.skill-area {
+  background-color: #262629;
+  padding: 74px 30px 74px;
+  border-radius: 150px;
+  margin: 20px 20px;
+}
+.skill-img {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.skill-percentage {
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.1;
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.skill-pare {
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  line-height: 1.8;
+  text-align: center;
+  color: #ddd;
 }
 
 /*# sourceMappingURL=style.css.map */

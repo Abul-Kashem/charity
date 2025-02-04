@@ -28,6 +28,17 @@
     $(this).css("color", $(this).attr("data-color"));
   });
 
+  // data bg img
+
+
+  // $("[data-bg-img]").each(function () {
+  //   $(this).css("background-image", `url(${$(this).attr("data-bg-img")})`);
+  // });
+
+$("[data-bg-img]").each(function () {
+    $(this).css("background-image", `url(${this.dataset.bgImg})`);
+});
+
   // swiper slider
 
   var swiper = new Swiper(".ahncauses-slider-active", {

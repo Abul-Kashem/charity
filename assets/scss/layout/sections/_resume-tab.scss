@@ -1,0 +1,56 @@
+@use "../../utils/" as *;
+
+.about-data li {
+  display: grid;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  padding-bottom: 5px;
+  -ms-grid-columns: 130px 40px auto;
+  grid-template-columns: 130px 40px auto;
+}
+
+.experience-item {
+  border-radius: 15px;
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  &-section {
+    color: #e8bf96;
+  }
+  & .exp-year {
+    color: #e8bf96;
+  }
+}
+
+.skill {
+  &-area {
+    background-color: #262629;
+    padding: 74px 30px 74px;
+    border-radius: 150px;
+    margin: 20px 20px;
+  }
+  &-img {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  &-percentage {
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  &-pare {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 1.8;
+    text-align: center;
+    color: #ddd;
+  }
+}
