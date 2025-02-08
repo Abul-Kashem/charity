@@ -80,20 +80,20 @@ img {
 // font size
 
 .fns {
- &-16 {
+  &-16 {
     font-size: 16px;
   }
- &-20 {
+  &-20 {
     font-size: 20px;
     line-height: 32px;
   }
- &-34 {
+  &-34 {
     font-size: 34px;
   }
   &-50 {
     font-size: 50px;
   }
- &-60 {
+  &-60 {
     font-size: 60px;
   }
   &-80 {
@@ -131,10 +131,20 @@ img {
   &-20 {
     border-radius: 20px;
   }
+  &-30 {
+    border-radius: 30px;
+  }
 }
 
 // height
 
 .ahn-h-630 {
   min-height: 630px;
+}
+
+.container {
+  &-1400 {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
 }

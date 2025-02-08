@@ -1,1 +1,40 @@
-@use '../../utils/' as *;
+@use "../../utils/" as *;
+
+.ahnsmblog {
+  &__thumb {
+    margin-right: -17px;
+  }
+  &__content {
+    padding-left: 20px;
+  }
+  &__meta {
+    & span {
+      color: #454449;
+      font-size: 16px;
+      display: inline-flex;
+      align-items: center;
+      & svg {
+        margin-right: 8px;
+      }
+    }
+  }
+  &__title {
+    font-size: 26px;
+    letter-spacing: -1.04px;
+    margin-bottom: 17px;
+    line-height: 1.2;
+  }
+}
+
+
+
+.ahn-sm-blog-shpe {
+  position: absolute;
+  width: 39%;
+  height: 900px;
+  bottom: 40px;
+
+}
+.ahn-donate-text-box {
+  transform: translateX(40px);
+}
